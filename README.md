@@ -1,7 +1,9 @@
-# ICT CLUB ATTENDANCE TRACCKER
+
 
 <div align="center">
-
+  
+# ICT CLUB ATTENDANCE TRACCKER
+  
 **✨ Simple. Fast. Digital. ✨**
 
 *Mark your attendance in under 1 minute!*
