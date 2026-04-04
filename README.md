@@ -2,7 +2,7 @@
 
 <div align="center">
   
-# ICT CLUB ATTENDANCE TRACCKER
+# ICT Club Attendance Tracker
   
 **✨ Simple. Fast. Digital. ✨**
 
