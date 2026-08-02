@@ -6,7 +6,7 @@
 
 **✨ Simple. Fast. Digital. ✨**
 
-*Mark your attendance in under 1 minute!*
+*Mark your presence in under 1 minute!*
 
 ---
 
