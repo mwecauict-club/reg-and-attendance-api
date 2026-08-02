@@ -12,7 +12,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Flask Version](https://img.shields.io/badge/flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](LICENSE)
 
 **[For Club Members](#-for-club-members-how-to-use)** | **[For Developers](#-for-developers-setup-guide)** | **[For Club Leaders](#-for-club-leaders)**
 
@@ -1052,6 +1052,8 @@ This project is developed for ICT Club. See [LICENSE](LICENSE) file for details.
 
 ---
 
-[📖 View Documentation](docs/) • [🐛 Report Bug](https://github.com/your-organization/ict-club-attendance-api/issues) • [💡 Request Feature](https://github.com/your-organization/ict-club-attendance-api/issues)
+[📖 View Documentation](docs/) • [🐛 Report Bug](https://github.com/mwecauict-club/ict-club-attendance-api/issues) • [💡 Request Feature](https://github.com/mwecauict-club/ict-club-attendance-api/issues)
+Made with ❤️ for the Open Source Community.
 
+If you improve this project, please contribute your enhancements back so the community can benefit.
 </div>
