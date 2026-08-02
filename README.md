@@ -1,20 +1,72 @@
 
 
 <div align="center">
-  
+
 # ICT Club Attendance Tracker
-  
+
 **✨ Simple. Fast. Digital. ✨**
 
 *Mark your attendance in under 1 minute!*
 
 ---
 
-[![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Flask Version](https://img.shields.io/badge/flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](LICENSE)
+### 🚀 Built With
 
-**[For Club Members](#-for-club-members-how-to-use)** | **[For Developers](#-for-developers-setup-guide)** | **[For Club Leaders](#-for-club-leaders)**
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-3.x-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Google Sheets API](https://img.shields.io/badge/Google%20Sheets-API-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)](https://developers.google.com/sheets/api)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Console-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://console.cloud.google.com/)
+[![REST API](https://img.shields.io/badge/REST-API-009688?style=for-the-badge)](#)
+
+---
+
+### 📦 Deployment
+
+[![PythonAnywhere](https://img.shields.io/badge/Deploy-PythonAnywhere-1D9FD7?style=for-the-badge)](https://www.pythonanywhere.com/)
+[![Platform](https://img.shields.io/badge/Platform-Web-success?style=for-the-badge)](#)
+[![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen?style=for-the-badge)](#)
+
+---
+
+### 📊 Project Status
+
+![License](https://img.shields.io/badge/License-GPL_v3-blue?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
+
+---
+
+### ⭐ GitHub
+
+![GitHub Repo stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![GitHub Release](https://img.shields.io/github/v/release/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+
+---
+
+### 🧪 Quality
+
+![Tests](https://img.shields.io/badge/Tests-Passing-success?style=for-the-badge)
+![Code Style](https://img.shields.io/badge/Code%20Style-PEP8-blue?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Reviewed-success?style=for-the-badge)
+![API](https://img.shields.io/badge/API-REST-009688?style=for-the-badge)
+
+---
+
+**[📖 Documentation](docs/)** •
+**[🚀 Quick Start](#-for-developers-complete-setup-guide)** •
+**[👨‍🎓 Club Members](#-for-club-members-how-to-use)** •
+**[👨‍💻 Developers](#-for-developers-complete-setup-guide)** •
+**[🤝 Contributing](CONTRIBUTING.md)**
 
 </div>
 
