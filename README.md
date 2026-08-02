@@ -58,6 +58,143 @@ This is the **ICT Club's Digital Attendance System**. Instead of signing paper s
 -  Quick and easy process (less than 1 minute!)
 
 ---
+# Higher Level Arch
+1. System Overview
+```mermaid
+flowchart LR
+
+    U[Club Member]
+    W[Flask Web App]
+    G[(Google Sheets)]
+
+    U -->|Register / Mark Attendance| W
+    W -->|Read & Write Data| G
+    G --> W
+    W -->|Success Response| U
+```
+2. Attendance Flow
+```mermaid
+flowchart TD
+
+    A[Open Attendance Page]
+    B[Enter Registration Number]
+    C[Enter Session Code]
+    D{Valid Member?}
+    E{Correct Session Code?}
+    F{Attendance Window Open?}
+    G[Save Attendance]
+    H[Success]
+    I[Show Error]
+
+    A --> B
+    B --> C
+    C --> D
+
+    D -->|No| I
+    D -->|Yes| E
+
+    E -->|No| I
+    E -->|Yes| F
+
+    F -->|No| I
+    F -->|Yes| G
+
+    G --> H
+```
+3. Registration Flow
+```mermaid
+flowchart TD
+
+    A[Open Registration Page]
+    B[Fill Registration Form]
+    C[Validate Input]
+    D{Valid?}
+    E[Save to Google Sheets]
+    F[Registration Successful]
+    G[Show Validation Errors]
+
+    A --> B
+    B --> C
+    C --> D
+
+    D -->|No| G
+    D -->|Yes| E
+
+    E --> F
+```
+4. Project Structure
+```mermaid
+graph TD
+
+    APP[src/]
+
+    APP --> API[api]
+    APP --> CFG[config]
+    APP --> SRV[services]
+    APP --> TMP[templates]
+    APP --> ST[static]
+    APP --> UTIL[utils]
+
+    SRV --> SS[sheets_service.py]
+    SRV --> MS[member_service.py]
+    SRV --> ATS[attendance_service.py]
+```
+5. Request Lifecycle
+```mermaid
+sequenceDiagram
+
+    participant User
+    participant Flask
+    participant Service
+    participant GoogleSheets
+
+    User->>Flask: HTTP Request
+    Flask->>Service: Validate Request
+    Service->>GoogleSheets: Read/Write Data
+    GoogleSheets-->>Service: Response
+    Service-->>Flask: Result
+    Flask-->>User: JSON / HTML Response
+```
+6. Application Components
+```mermaid
+graph LR
+
+    Browser --> Routes
+    Routes --> Services
+    Services --> Validators
+    Services --> GoogleSheets
+    GoogleSheets --> Spreadsheet
+```
+7. Deployment Architecture
+```mermaid
+flowchart LR
+
+    Developer --> GitHub
+    GitHub --> PythonAnywhere
+    PythonAnywhere --> Flask
+    Flask --> GoogleSheets
+    User --> Flask
+```
+8. Component Relationship
+```mermaid
+classDiagram
+
+    class FlaskApp
+
+    class Routes
+    class AttendanceService
+    class MemberService
+    class SheetsService
+    class GoogleSheets
+
+    FlaskApp --> Routes
+    Routes --> AttendanceService
+    Routes --> MemberService
+    AttendanceService --> SheetsService
+    MemberService --> SheetsService
+    SheetsService --> GoogleSheets
+```
+
 
 ## FOR CLUB MEMBERS (HOW TO USE)
 
